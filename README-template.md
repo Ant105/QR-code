@@ -8,6 +8,7 @@ This is just a QR-code project made with basic HTML and CSS.
 
 ### Screenshot
 
+![Screenshot of the QR-code](Screenshot.png)
 
 
 
