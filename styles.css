@@ -1,0 +1,81 @@
+
+@font-face {
+  font-family: 'Outfit-Regular';
+  src: url('fonts/Outfit-Regular.woff2') format('woff2'),
+  url('fonts/Outfit-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Outfit-Bold';
+  src: url('fonts/Outfit-Bold.woff2') format('woff2'),
+  url('fonts/Outfit-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Colors */
+  --page-background: #D5E1EF;
+  --qr-code-background: white;
+  --header: #1F314F;
+  --paragraph: #68778D;
+  --anchor: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: var(--page-background);
+}
+
+.QR-code-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  height: 500px;
+  box-sizing: border-box;
+  background-color: var(--qr-code-background);
+  padding: 16px 16px 40px 16px;
+  border-radius: 18px;
+}
+
+img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: 'Outfit-Bold', 'Segoe UI';
+  color: var(--header);
+  text-align: center;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  margin-top: 20px;
+}
+
+p {
+  font-family: 'Outfit-Regular', 'Segoe UI';
+  color: var(--paragraph);
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  line-height: 21px;
+  width: 270px;
+  margin: auto;
+}
+
+.attribution {
+  font-family: 'Outfit-Regular';
+  font-size: 11px;
+  text-align: center;
+
+}
+.attribution a {
+  color: var(--anchor);
+}

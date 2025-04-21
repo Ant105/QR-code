@@ -15,7 +15,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 This is just a QR-code project made with basic HTML and CSS.
-!I would be very grateful for any corrections, advice or recommendations.
+I would be very grateful for any feedback!
 
 ### Screenshot
 ![Screenshot of the QR-code](images/Screenshot.png)
@@ -27,10 +27,10 @@ Live Site URL: https://ant105.github.io/QR-code/
 ## My process
 
 ### Built with
-Just basic HTML and CSS
+Just basic HTML/CSS, variables for colors
 
 ### What I learned
-That I'm dumb
+-
 
 ### Continued development
 Everything
